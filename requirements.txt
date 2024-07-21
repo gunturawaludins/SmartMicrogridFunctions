@@ -1,0 +1,5 @@
+echo "azure-functions" >> requirements.txt
+echo "requests" >> requirements.txt
+echo "pandas" >> requirements.txt
+echo "numpy" >> requirements.txt
+echo "pymssql" >> requirements.txt
