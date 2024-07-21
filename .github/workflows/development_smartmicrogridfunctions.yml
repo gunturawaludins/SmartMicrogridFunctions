@@ -29,3 +29,5 @@ jobs:
         app-name: 'SmartMicrogridFunctions'
         package: '.'
         publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
+        scm-do-build-during-deployment: true
+        enable-oryx-build: true
